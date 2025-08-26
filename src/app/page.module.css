@@ -3,8 +3,19 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  padding: 2rem 1rem;
+  min-height: 100dvh;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  width: 100%;
+  flex-wrap: nowrap;
 }
 
 .description {
@@ -108,6 +119,42 @@
 .logo {
   position: relative;
 }
+
+.contentHolder {
+  padding: 4rem 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.contentHolder .section:first-child {
+  flex: 0 0 60%;
+}
+
+.contentHolder .section:last-child {
+  flex: 0 0 calc(40% - 2rem);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+  
+  .contentHolder {
+    padding: 0;
+  }
+  
+  .contentHolder .section:first-child,
+  .contentHolder .section:last-child {
+    flex: 0 0 100%;
+  }
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
@@ -123,6 +170,24 @@
 @media (prefers-reduced-motion) {
   .card:hover span {
     transform: none;
+  }
+}
+
+/* Extra Small Mobile */
+@media (max-width: 360px) {
+  .header {
+    flex-direction: row;
+    gap: 0.125rem;
+    align-items: flex-start;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .header {
+    flex-direction: row;
+    gap: 0.25rem;
+    align-items: flex-start;
   }
 }
 
