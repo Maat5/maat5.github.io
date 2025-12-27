@@ -43,8 +43,8 @@ export const KnowledgeAndTools = ({
 
       <h2 className={styles.headingRow}>Courses</h2>
       <div className={styles.coursesContainer}>
-        {courses.map((course) => (
-          <div className={styles.courseContainer} key={course.institution}>
+        {courses.map((course, index) => (
+          <div className={styles.courseContainer} key={`${index}-${course.institution}`}>
             <div className={styles.bulletItem}></div>
             <div className={styles.courseContent}>
               <div className={styles.courseItem}>
@@ -59,8 +59,8 @@ export const KnowledgeAndTools = ({
 
       <h2 className={styles.headingRow}>Education</h2>
       <div className={styles.coursesContainer}>
-        {education.map((education) => (
-          <div className={styles.courseContainer} key={education.institution}>
+        {education.map((education, index) => (
+          <div className={styles.courseContainer} key={`${index}-${education.institution}`}>
             <div className={styles.bulletItem}></div>
             <div className={styles.courseContent}>
               <div className={styles.courseItem}>
@@ -68,10 +68,10 @@ export const KnowledgeAndTools = ({
                 <p className={styles.courseYear}>{education.period}</p>
               </div>
               <p className={styles.courseCourse}>{education.degree}</p>
-              </div>
             </div>
-          ))}
+          </div>
+        ))}
       </div>
-    </div>
+    </div >
   );
 };
