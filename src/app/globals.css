@@ -99,7 +99,7 @@ a {
   }
 }
 
-@media (min-width: 421px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 768px) {
   header {
     width: 100% !important;
     flex-wrap: wrap !important;

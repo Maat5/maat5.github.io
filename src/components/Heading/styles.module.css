@@ -45,8 +45,37 @@
 
 /* Mobile first - base styles already defined above */
 
+@media (min-width: 380px) {
+  .headingContainer {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .headingRow {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .headingRow h1 {
+    font-size: 2.5rem !important;
+    letter-spacing: 0.1rem;
+  }
+
+  .headingRow h2 {
+    font-size: 1.8rem !important;
+    margin-top: 8px;
+  }
+
+  .headingRow h3 {
+    font-size: 0.7rem;
+    margin-left: 0px;
+    margin-top: 8px;
+  }
+}
+
 /* Extra small mobile devices */
 @media (max-width: 360px) {
+
   .headingRow h1 {
     font-size: 1.5rem;
     letter-spacing: 0.05rem;
@@ -58,7 +87,7 @@
 
   .headingRow h3 {
     font-size: 0.7rem;
-    margin-left: 5px;
+    margin-left: 0px;
   }
 }
 
@@ -91,7 +120,6 @@
     width: 100%;
     flex-wrap: wrap;
   }
-
 
   .headingRow h1 {
     font-size: 3rem;
