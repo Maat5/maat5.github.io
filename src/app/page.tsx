@@ -5,6 +5,7 @@ import { Heading } from "@/components/Heading/Heading";
 import { ContactInfo } from "@/components/ContactInfo/ContactInfo";
 import { Experience } from "@/components/Experience/Experience";
 import { KnowledgeAndTools } from "@/components/knowledgeAndTools/KnowledgeAndTools";
+import { Footer } from '@/components/Footer/Footer'
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
           <Experience experience={content.experience} />
         </div>
         <div className={styles.section}>
-          <KnowledgeAndTools 
+          <KnowledgeAndTools
             languages={content.languages}
             knowledgeAndTools={content.knowledgeAndTools}
             courses={content.courses}
@@ -27,6 +28,7 @@ export default function Home() {
           />
         </div>
       </section>
+      <Footer />
     </main>
   );
 }

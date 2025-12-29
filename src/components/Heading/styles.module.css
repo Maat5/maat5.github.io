@@ -80,7 +80,19 @@
 }
 
 /* Mobile devices */
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 850px) {
+
+  .headingContainer {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .headingRow {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+
   .headingRow h1 {
     font-size: 3rem;
     letter-spacing: 0.2rem;
@@ -91,8 +103,10 @@
   }
 
   .headingRow h3 {
+    width: 100%;
     font-size: 1.1rem;
-    margin-left: 20px;
+    margin-top: 0.5rem;
+    margin-left: 0px;
   }
 }
 
