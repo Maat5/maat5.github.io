@@ -23,80 +23,81 @@ const data: ResumeData = {
       degree: "Information Engineering Degree",
     },
   ],
-  experience: [
-    {
-      company: "Lumenalta",
-      period: "Dec. 2020 - Current",
-      position: "Lead Software Engineer",
-      responsibilities: [
-        "Maintain existing applications",
-        "Lead multiple projects with the use of latest technologies.",
-        "Contribute to improve company stack",
-      ],
-    },
-    {
-      company: "Able",
-      period: "Nov. 2021- Dic. 2023",
-      position: "Lead Software Engineer",
-      responsibilities: [
-        "Responsible for reviewing of code, ensuring adherence to coding standards, and promoting code quality and consistency",
-        "Provide day-to-day solutions for the team.",
-        "Lead multiple projects with the use of latest technologies.",
-        "Contribute to improve company stack",
-      ],
-    },
-    {
-      company: "MiCuento",
-      period: "Dec. 2019 - Oct. 2021",
-      position: "Full-Stack Developer",
-      responsibilities: [
-        "Create a new company stack based on new technologies.",
-        "Create JS/Node.js libraries for new projects.",
-        "Create and deploy microservices-based solutions.",
-      ],
-    },
-    {
-      company: "Rokk3rLabs",
-      period: "Oct. 2017 - Feb. 2020",
-      position: "Full-Stack Developer",
-      responsibilities: [
-        "Create Web Apps with modern web interfaces",
-        "Build realtime solutions with Firebase",
-        "Construct JS/Node.js libraries for new functionalities.",
-        "Contribute to improve company stack",
-        "Build and deploy solutions based on microservices",
-      ],
-    },
-    {
-      company: "Biosistemika",
-      period: "Jul. 2017 - Sep. 2017",
-      position: "Ionic Developer",
-      responsibilities: [
-        "Main core development of mobile hybrid applications with Ionic 3",
-      ],
-    },
-    {
-      company: "Perdizite C.A",
-      period: "Oct. 2016 - Jun. 2017",
-      position: "Full-Stack Developer",
-      responsibilities: [
-        "Core development of an Hybrid mobile app with Ionic 2",
-        "Core development of RESTful API written in Node.js",
-      ],
-    },
-    {
-      company: "Social H4ck C.A",
-      period: "Dec. 2015 - Oct. 2016",
-      position: "Senior Developer",
-      responsibilities: [
-        "Core development of Angular app.",
-        "Create new modules for Angular app.",
-        "Integrating 3rd party services like Facebook, Twitter and Instagram.",
-        "RESTfull API written in Node.Js",
-        "Config builds and tools used in app with Gulp.",
-      ],
-    },
-  ],
+  experience: [],
+  // experience: [
+  //   {
+  //     company: "Lumenalta",
+  //     period: "Dec. 2020 - Current",
+  //     position: "Lead Software Engineer",
+  //     responsibilities: [
+  //       "Maintain existing applications",
+  //       "Lead multiple projects with the use of latest technologies.",
+  //       "Contribute to improve company stack",
+  //     ],
+  //   },
+  //   {
+  //     company: "Able",
+  //     period: "Nov. 2021- Dic. 2023",
+  //     position: "Lead Software Engineer",
+  //     responsibilities: [
+  //       "Responsible for reviewing of code, ensuring adherence to coding standards, and promoting code quality and consistency",
+  //       "Provide day-to-day solutions for the team.",
+  //       "Lead multiple projects with the use of latest technologies.",
+  //       "Contribute to improve company stack",
+  //     ],
+  //   },
+  //   {
+  //     company: "MiCuento",
+  //     period: "Dec. 2019 - Oct. 2021",
+  //     position: "Full-Stack Developer",
+  //     responsibilities: [
+  //       "Create a new company stack based on new technologies.",
+  //       "Create JS/Node.js libraries for new projects.",
+  //       "Create and deploy microservices-based solutions.",
+  //     ],
+  //   },
+  //   {
+  //     company: "Rokk3rLabs",
+  //     period: "Oct. 2017 - Feb. 2020",
+  //     position: "Full-Stack Developer",
+  //     responsibilities: [
+  //       "Create Web Apps with modern web interfaces",
+  //       "Build realtime solutions with Firebase",
+  //       "Construct JS/Node.js libraries for new functionalities.",
+  //       "Contribute to improve company stack",
+  //       "Build and deploy solutions based on microservices",
+  //     ],
+  //   },
+  //   {
+  //     company: "Biosistemika",
+  //     period: "Jul. 2017 - Sep. 2017",
+  //     position: "Ionic Developer",
+  //     responsibilities: [
+  //       "Main core development of mobile hybrid applications with Ionic 3",
+  //     ],
+  //   },
+  //   {
+  //     company: "Perdizite C.A",
+  //     period: "Oct. 2016 - Jun. 2017",
+  //     position: "Full-Stack Developer",
+  //     responsibilities: [
+  //       "Core development of an Hybrid mobile app with Ionic 2",
+  //       "Core development of RESTful API written in Node.js",
+  //     ],
+  //   },
+  //   {
+  //     company: "Social H4ck C.A",
+  //     period: "Dec. 2015 - Oct. 2016",
+  //     position: "Senior Developer",
+  //     responsibilities: [
+  //       "Core development of Angular app.",
+  //       "Create new modules for Angular app.",
+  //       "Integrating 3rd party services like Facebook, Twitter and Instagram.",
+  //       "RESTfull API written in Node.Js",
+  //       "Config builds and tools used in app with Gulp.",
+  //     ],
+  //   },
+  // ],
   knowledgeAndTools: {
     primary: [
       { name: "HTML/CSS/JS", level: 10 },
